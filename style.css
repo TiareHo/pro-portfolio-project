@@ -1,7 +1,68 @@
+:root {
+  --branding-color: #ca6702;
+  --secondary-color: #ccd5ae;
+  --creamscape-color: #fefae0;
+  --darkscape-color: #495057;
+  --heading-font-family: "Poiret One", cursive;
+  --primary-font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  padding: 90px 0px 60px 0px;
+  background-color: var(--creamscape-color);
+}
+
 h1 {
-  font-family: "Poiret One", cursive;
+  font-family: var(--heading-font-family);
   font-weight: bolder;
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 34px;
+  font-weight: lighter;
+  line-height: 65px;
+  margin-bottom: 60px;
 }
 p {
-  font-family: "Poppins", sans-serif;
+  font-weight: 400px;
+  color: var(--darkscape-color);
+}
+p,
+h2 {
+  font-family: var(--primary-font-family);
+}
+
+p,
+h1,
+h2 {
+  margin-left: 50px;
+}
+
+@media (max-width: 900px) {
+  p,
+  h1,
+  h2 {
+    margin-left: 10px;
+  }
+}
+
+a {
+  color: var(--branding-color);
+}
+
+.btn-branding {
+  border-radius: 4px;
+  padding: 10px 20px;
+  background-color: white;
+  color: var(--branding-color);
+  text-decoration: none;
+  border: 0.3px solid;
+  border-color: var(--branding-color);
+}
+
+.btn-branding:visited {
+  color: var(--darkscape-color);
+  border-color: var(--darkscape-color);
+  text-decoration: none;
 }
