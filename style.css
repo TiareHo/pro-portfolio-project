@@ -12,6 +12,12 @@
   background-color: var(--creamscape-color);
 }
 
+@media (max-width: 900px) {
+  .coder-image {
+    display: none;
+  }
+}
+
 h1 {
   font-family: var(--heading-font-family);
   font-weight: bolder;
