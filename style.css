@@ -8,7 +8,7 @@
 }
 
 .hero {
-  padding: 90px 0px 60px 0px;
+  padding: 90px 6px 60px 2px;
   background-color: var(--creamscape-color);
 }
 
@@ -37,12 +37,6 @@ p {
 p,
 h2 {
   font-family: var(--primary-font-family);
-}
-
-p,
-h1,
-h2 {
-  margin-left: 50px;
 }
 
 @media (max-width: 900px) {
