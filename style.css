@@ -70,3 +70,9 @@ a {
   border-color: var(--darkscape-color);
   text-decoration: none;
 }
+
+.numeral {
+  font-family: var(--heading-font-family);
+  font-size: 80px;
+  text-align: center;
+}
