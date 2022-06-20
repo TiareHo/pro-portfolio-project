@@ -12,10 +12,19 @@
   background-color: var(--creamscape-color);
 }
 
-.top-strip {
+.bottom-strip {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.top-strip,
+.bottom-strip {
   background-color: var(--creamscape-color);
+}
+.top-strip {
   padding: 20px 6px 10px 2px;
 }
+
 @media (max-width: 992px) {
   .coder-image {
     display: none;
@@ -28,10 +37,13 @@ h1 {
   font-size: 64px;
 }
 
-h2 {
+h2,
+h3 {
   font-size: 34px;
   font-weight: lighter;
   line-height: 65px;
+}
+h2 {
   margin-bottom: 60px;
 }
 @media (max-width: 576px) {
@@ -48,7 +60,8 @@ p {
   color: var(--darkscape-color);
 }
 p,
-h2 {
+h2,
+h3 {
   font-family: var(--primary-font-family);
 }
 
