@@ -34,6 +34,15 @@ h2 {
   line-height: 65px;
   margin-bottom: 60px;
 }
+@media (max-width: 576px) {
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .numeral {
+    text-align: left;
+  }
+}
 p {
   font-weight: 400px;
   color: var(--darkscape-color);
@@ -75,4 +84,5 @@ a {
   font-family: var(--heading-font-family);
   font-size: 80px;
   color: var(--secondary-color);
+  padding-right: 20%;
 }
