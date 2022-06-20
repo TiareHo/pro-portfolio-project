@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #ca6702;
+  --branding-color: #c499ba;
   --secondary-color: #ccd5ae;
   --creamscape-color: #fefae0;
   --darkscape-color: #495057;
@@ -74,5 +74,4 @@ a {
 .numeral {
   font-family: var(--heading-font-family);
   font-size: 80px;
-  text-align: center;
 }
