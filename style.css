@@ -74,4 +74,5 @@ a {
 .numeral {
   font-family: var(--heading-font-family);
   font-size: 80px;
+  color: var(--secondary-color);
 }
