@@ -25,9 +25,17 @@
   padding: 20px 6px 10px 2px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 899px) {
   .coder-image {
     display: none;
+  }
+  .btn-branding-margin {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 900px) {
+  .coder-image {
+    width: 100px;
   }
   p,
   h1,
