@@ -73,6 +73,7 @@ h2 {
 p {
   font-weight: 400px;
   color: var(--darkscape-color);
+  font-size: 20px;
 }
 p,
 h2,
