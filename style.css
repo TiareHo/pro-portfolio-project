@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #c499ba;
+  --branding-color: #ac5980;
   --secondary-color: #ccd5ae;
   --creamscape-color: #fefae0;
   --darkscape-color: #495057;
@@ -29,21 +29,17 @@
 }
 
 @media (max-width: 899px) {
-  h2 {
-    font-size: 20px;
-    line-height: 30px;
+  .hero h2 {
+    font-size: 24px;
+    line-height: 34px;
   }
-  .coder-image {
-    display: none;
+  .hero h1 {
+    font-size: 54px;
   }
   .btn-branding-margin {
     margin-top: 60px;
   }
-}
-@media (max-width: 900px) {
-  .coder-image {
-    width: 100px;
-  }
+
   p,
   h1,
   h2 {
@@ -88,18 +84,22 @@ h3 {
 a {
   color: var(--branding-color);
 }
-
+a:hover {
+  color: var(--darkscape-color);
+}
 .btn-branding {
   border-radius: 4px;
   padding: 10px 20px;
-  background-color: white;
+  background-color: #e8ebd7bb;
   color: var(--branding-color);
-  text-decoration: none;
+
   border: 0.3px solid;
   border-color: var(--branding-color);
+  opacity: 90%;
+  box-shadow: 1px 1px#4950574b;
 }
 
-.btn-branding:visited {
+.btn-branding:hover {
   color: var(--darkscape-color);
   border-color: var(--darkscape-color);
   text-decoration: none;
