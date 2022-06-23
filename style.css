@@ -15,7 +15,8 @@
   background-color: var(--color-olive);
 }
 
-.bottom-strip {
+.bottom-strip,
+.bottom-strip-blogs {
   text-align: center;
   padding-bottom: 100px;
 }
