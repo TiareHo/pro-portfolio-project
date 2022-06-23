@@ -109,6 +109,6 @@ a:hover {
 .numeral {
   font-family: var(--heading-font-family);
   font-size: 80px;
-  color: var(--secondary-color);
+  color: var(--color-two);
   padding-right: 20%;
 }
