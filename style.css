@@ -3,13 +3,16 @@
   --secondary-color: #ccd5ae;
   --creamscape-color: #fefae0;
   --darkscape-color: #495057;
+  --color-olive: #a9b08763;
+  --color-two: #d7cbffa6;
+  --color-three: #dac9dba6;
   --heading-font-family: "Poiret One", cursive;
   --primary-font-family: "Poppins", sans-serif;
 }
 
 .hero {
   padding: 90px 6px 60px 2px;
-  background-color: var(--creamscape-color);
+  background-color: var(--color-olive);
 }
 
 .bottom-strip {
@@ -19,22 +22,22 @@
 
 .top-strip,
 .bottom-strip {
-  background-color: var(--creamscape-color);
+  background-color: var(--color-olive);
 }
 .top-strip {
   padding: 20px 6px 10px 2px;
 }
 
 @media (max-width: 899px) {
+  h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
   .coder-image {
     display: none;
   }
   .btn-branding-margin {
     margin-top: 60px;
-  }
-  h2 {
-    font-size: 20px;
-    line-height: 30px;
   }
 }
 @media (max-width: 900px) {
