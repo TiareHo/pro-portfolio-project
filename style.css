@@ -28,14 +28,19 @@
 .top-strip {
   padding: 20px 6px 10px 2px;
 }
+div .projects-container {
+  padding: 20px;
+}
 
 @media (max-width: 899px) {
   .hero h2,
-  .project-list h2 {
+  .project-list h2,
+  .hero-secondary-page h2 {
     font-size: 24px;
-    line-height: 34px;
+    line-height: 36px;
   }
-  .hero h1 {
+  .hero h1,
+  .hero-secondary-page h1 {
     font-size: 54px;
   }
   .btn-branding-margin {
@@ -48,8 +53,12 @@
     margin-left: 10px;
   }
   .hero p,
-  .project-list p {
+  .project-list p,
+  .hero-secondary-page p {
     font-size: 16px;
+  }
+  div .numeral-one {
+    margin-left: 20px;
   }
 }
 
@@ -67,14 +76,18 @@ h3 {
 }
 
 @media (max-width: 576px) {
-  .numeral {
+  div .numeral {
     text-align: left;
+    font-size: 34px;
+    padding-left: 0px;
   }
 }
+
 p {
   font-weight: 400px;
   color: var(--darkscape-color);
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 28px;
 }
 p,
 h2,
