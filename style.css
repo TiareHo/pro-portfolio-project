@@ -83,11 +83,12 @@ h3 {
   }
 }
 
-p {
+p,
+.hero-secondary-page p {
   font-weight: 400px;
   color: var(--darkscape-color);
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 30px;
 }
 p,
 h2,
@@ -131,4 +132,11 @@ a:hover {
 
 .nav-bg-custom {
   background-color: var(--color-olive);
+}
+
+.hero-secondary-page a {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
 }
