@@ -104,6 +104,7 @@ a {
 }
 a:hover {
   color: var(--darkscape-color);
+  transition: all 120ms ease-in-out;
 }
 .btn-branding {
   border-radius: 4px;
@@ -121,6 +122,7 @@ a:hover {
   color: var(--darkscape-color);
   border-color: var(--darkscape-color);
   text-decoration: none;
+  transition: all 100ms ease-in-out;
 }
 
 .numeral {
