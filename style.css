@@ -16,7 +16,8 @@
 }
 
 .top-strip,
-footer {
+footer,
+.bottom-strip-blogs {
   background-color: var(--color-olive);
 }
 .top-strip {
