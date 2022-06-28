@@ -45,6 +45,35 @@ footer .contact-icons a:hover {
   color: var(--color-olive);
 }
 
+h1 {
+  font-family: var(--heading-font-family);
+  font-weight: bolder;
+  font-size: 64px;
+}
+
+h2,
+h3 {
+  font-size: 34px;
+  font-weight: lighter;
+  line-height: 65px;
+}
+h3 {
+  padding-top: 43px;
+}
+
+p,
+h2,
+h3 {
+  font-family: var(--primary-font-family);
+}
+p,
+.hero-secondary-page p {
+  font-weight: 400px;
+  color: var(--darkscape-color);
+  font-size: 20px;
+  line-height: 30px;
+}
+
 @media (max-width: 899px) {
   .hero h2,
   .project-list h2,
@@ -76,19 +105,6 @@ footer .contact-icons a:hover {
   }
 }
 
-h1 {
-  font-family: var(--heading-font-family);
-  font-weight: bolder;
-  font-size: 64px;
-}
-
-h2,
-h3 {
-  font-size: 34px;
-  font-weight: lighter;
-  line-height: 65px;
-}
-
 @media (max-width: 576px) {
   div .numeral {
     text-align: left;
@@ -103,22 +119,6 @@ h3 {
     font-size: 24px;
     line-height: 36px;
   }
-}
-
-p,
-.hero-secondary-page p {
-  font-weight: 400px;
-  color: var(--darkscape-color);
-  font-size: 20px;
-  line-height: 30px;
-}
-p,
-h2,
-h3 {
-  font-family: var(--primary-font-family);
-}
-h3 {
-  padding-top: 43px;
 }
 
 a {
